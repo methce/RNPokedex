@@ -5,6 +5,7 @@ import NavigationService from './src/classes/utils/NavigationService';
 import {StyleSheet} from 'react-native';
 import {connect} from 'react-redux';
 import {colors} from './src/assets/styles';
+import SplashScreen from 'react-native-splash-screen';
 
 if (!__DEV__) {
   console.log = () => {};
@@ -15,6 +16,10 @@ class App extends Component {
     super(props);
 
     this.state = {};
+  }
+
+  componentDidMount() {
+    SplashScreen.hide();
   }
 
   render() {
