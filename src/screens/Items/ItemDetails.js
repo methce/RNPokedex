@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   detailView: {
     backgroundColor: '#fff',
     width: width * 0.95,
-    height: height * 0.65,
+    height: height * 0.80,
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   close: {
     position: 'absolute',
     right: '45%',
-    bottom: 10,
+    bottom: 8,
     zIndex: 1,
   },
 });
